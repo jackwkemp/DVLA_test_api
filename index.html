@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <title>MOT Example</title>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+
+<body>
+        <div class="topnav">
+                <a class="active" href="#home">COMPANY</a>
+                <a href="#news">Management Tool</a>
+                <a href="#about"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Search
+                        </a>
+        </div>
+
+
+        <div class="vehicle_info">
+                <h4>XXXXXXXX</h4>
+
+        </div>
+
+        <div class="doc">
+                <h5>Car > Documents</h5>
+        </div>
+
+        <div class="mot_api_title">
+                <h2>MOT Information - DVLA Database</2h>
+
+        </div>
+
+        <div class="mot_api_info">
+
+                <form method="POST" action="/send">
+
+
+                        <label for="inputNumber" class="sr-only">Registration Number:</label><br>
+                        <input name="number" class="form-control" value="XXXXXXXX" required autocomplete="off">
+                        <br>
+                        <br>
+                        <button class="btn" type="submit">Send</button>
+
+                </form>
+
+        </div>
+
+       
+
+</body>
+
+</html>

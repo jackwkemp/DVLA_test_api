@@ -1,0 +1,104 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #131212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #e4212b;
+    color: white;
+  }
+
+  body {
+
+    background-color:#f7f7f7;
+
+  }
+
+  h2 {
+
+    color: rgb(0, 30, 62);
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+    font-weight: 700;
+  }
+
+  h3 {
+
+    color: #4499fc;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 0.8rem;
+
+  }
+
+  h4 {
+
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.875rem;
+    margin-top: 2px;
+    font-weight: 700;
+    color: #444;
+  }
+
+  p{
+
+    color: rgb(0, 30, 62);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+    font-size: 0.875rem;
+
+  }
+
+  .vehicle_info {
+
+    background-color:white;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 45px;
+
+  }
+
+
+  .mot_api_title {
+  position: absolute;
+  top: 270px;
+  left: 50px;
+  width: 605px;
+  background-color:white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.mot_api_info {
+  position: absolute;
+  top: 335px;
+  left: 50px;
+  background-color:white;
+  width: 625px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: rgb(0, 30, 62);
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.4;
+    margin: 0px;
+    font-size: 0.875rem;
+  
+}
+
