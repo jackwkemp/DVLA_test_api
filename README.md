@@ -1,6 +1,10 @@
-# DVLA_test_api
-A few pieces of test code used to pull information from the DVLA database
+# DVLA Test API
 
-Once you get a test key from the DVLA, you should be able to get up and running with the Python files.
+This repository contains test code to pull information from the DVLA database using API requests. It includes Python files that can be used to retrieve data once you have access to the DVLA test API key. There are also HTML, CSS, and PHP files that demonstrate Post Requests for testing purposes.
 
-HTML, CSS and PHP files are were just for playing around with the Post Requests 
+## How to Use
+1. Obtain a test API key from the DVLA.
+2. Set up your Python environment and install any necessary libraries.
+3. Run the Python scripts to pull data from the DVLA API.
+4. Use the HTML/CSS/PHP files for experimenting with Post Requests.
+
